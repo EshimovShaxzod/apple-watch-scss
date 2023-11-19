@@ -1,13 +1,15 @@
-/* HERO STYLE START */
-.hero{
+/* BRAND STYLE START */
+.brand{
     width: 100%;
-    padding: 170px 0 183px 0;
-    background-image: url("../images/hero-bg.png");
-    background-repeat: no-repeat;
-    background-position: calc(50% + 550px) 50px;
-    background-size: contain;
+    padding: 70px 0;
 
-    &-content{
+    &-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-info{
         width: 100%;
         max-width: 490px;
 
@@ -20,8 +22,8 @@
         }
 
         &__desc{
-            margin: 0;
             padding-left: 40px;
+            margin: 0;
             margin-bottom: 30px;
             color: #777;
             font-size: 16px;
@@ -31,13 +33,9 @@
         }
 
         &__btn{
-            @include btn
+            @include btn;
+            padding: 12px 90px;
         }
     }
-
-    &-bottom__hr{
-        margin: 0;
-        background-color: #ddd;
-    }
 }
-/* HERO STYLE END */
+/* BRAND STYLE  END */
