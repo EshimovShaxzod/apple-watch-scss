@@ -451,6 +451,47 @@ main {
   border-bottom: 2px solid black;
 }
 
+/* HERO STYLE START */
+.hero {
+  width: 100%;
+  padding: 170px 0 183px 0;
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 550px) 50px;
+  background-size: contain;
+}
+.hero-content {
+  width: 100%;
+  max-width: 490px;
+}
+.hero-content__title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 50px;
+  line-height: 120%;
+}
+.hero-content__desc {
+  margin: 0;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  border-left: 3px solid #888;
+}
+.hero-content__btn {
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+  border: none;
+  text-transform: uppercase;
+  background-color: #EA625C;
+}
+
+/* HERO STYLE END */
 body {
   font-family: Roboto, sans-serif;
 }/*# sourceMappingURL=main.css.map */
