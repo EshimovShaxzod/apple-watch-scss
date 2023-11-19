@@ -1,0 +1,35 @@
+/* CONTROL STYLE START */
+.control{
+    width: 100%;
+    padding: 240px 0 239px 0;
+    background-image: url("../images/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &-wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &-content{
+        width: 100%;
+        max-width: 490px;
+        justify-self: flex-end;
+
+        &__title{
+            @include mainTitle;
+            color: #FFF;
+        }
+
+        &__desc{
+            @include description;
+            color: #FFF;
+        }
+
+        &__btn{
+            @include btn
+        }
+    }
+}
+/* CONTROL STYLE END */

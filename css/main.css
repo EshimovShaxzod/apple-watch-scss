@@ -467,19 +467,19 @@ main {
 .hero-content__title {
   margin: 0;
   margin-bottom: 30px;
-  color: #000;
   font-size: 50px;
   line-height: 120%;
+  color: #000;
 }
 .hero-content__desc {
   margin: 0;
   padding-left: 40px;
   margin-bottom: 30px;
-  color: #777;
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   border-left: 3px solid #888;
+  color: #777;
 }
 .hero-content__btn {
   padding: 12px 32px;
@@ -489,6 +489,7 @@ main {
   border: none;
   text-transform: uppercase;
   background-color: #EA625C;
+  cursor: pointer;
 }
 .hero-bottom__hr {
   margin: 0;
@@ -572,19 +573,19 @@ main {
 .brand-info__title {
   margin: 0;
   margin-bottom: 30px;
-  color: #000;
   font-size: 50px;
   line-height: 120%;
+  color: #000;
 }
 .brand-info__desc {
-  padding-left: 40px;
   margin: 0;
+  padding-left: 40px;
   margin-bottom: 30px;
-  color: #777;
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   border-left: 3px solid #888;
+  color: #777;
 }
 .brand-info__btn {
   padding: 12px 32px;
@@ -594,10 +595,56 @@ main {
   border: none;
   text-transform: uppercase;
   background-color: #EA625C;
+  cursor: pointer;
   padding: 12px 90px;
 }
 
 /* BRAND STYLE  END */
+/* CONTROL STYLE START */
+.control {
+  width: 100%;
+  padding: 240px 0 239px 0;
+  background-image: url("../images/runners.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.control-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.control-content {
+  width: 100%;
+  max-width: 490px;
+  justify-self: flex-end;
+}
+.control-content__title {
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 120%;
+  color: #FFF;
+}
+.control-content__desc {
+  padding-left: 40px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  border-left: 3px solid #888;
+  color: #FFF;
+}
+.control-content__btn {
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+  border: none;
+  text-transform: uppercase;
+  background-color: #EA625C;
+  cursor: pointer;
+}
+
+/* CONTROL STYLE END */
 body {
   font-family: Roboto, sans-serif;
 }/*# sourceMappingURL=main.css.map */
