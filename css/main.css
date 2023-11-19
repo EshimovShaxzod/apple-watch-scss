@@ -490,8 +490,71 @@ main {
   text-transform: uppercase;
   background-color: #EA625C;
 }
+.hero-bottom__hr {
+  margin: 0;
+  background-color: #ddd;
+}
 
 /* HERO STYLE END */
+/*  HEALTHY STYLE START */
+.healthy {
+  width: 100%;
+  padding: 70px 0;
+}
+.healthy-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.healthy-list__item {
+  width: 100%;
+  max-width: 280px;
+}
+.healthy-list__item-link {
+  position: relative;
+  padding-left: 50px;
+  display: inline-block;
+  text-decoration: none;
+  color: #EA625C;
+}
+.healthy-list__item-link::before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: #EA625C;
+}
+.healthy-list__title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #222;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.healthy-list__desc {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.healthy-list__desc-continuations {
+  display: flex;
+  align-items: center;
+}
+.healthy-list__desc-continuation {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+}
+
+/*  HEALTHY STYLE END */
 body {
   font-family: Roboto, sans-serif;
 }/*# sourceMappingURL=main.css.map */
