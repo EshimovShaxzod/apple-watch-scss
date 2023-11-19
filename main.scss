@@ -1,6 +1,11 @@
-@import "variables";
-@import "mixins";
-@import "normalize";
-@import "fonts";
-@import "general";
+@import "./scss-template/variables";
+@import "./scss-template/mixins";
+@import "./scss-template/normalize";
+@import "./scss-template/fonts";
+@import "./scss-template/general";
 @import "blocks/blocks";
+
+
+body{
+    font-family: $fontFamily;
+}
